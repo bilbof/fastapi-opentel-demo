@@ -1,0 +1,11 @@
+fastapi
+uvicorn
+requests
+opentelemetry-distro==0.32b0
+opentelemetry-exporter-otlp-proto-http==1.12.0rc2
+opentelemetry-propagator-b3==1.12.0rc2
+opentelemetry-instrumentation==0.32b0
+
+opentelemetry-instrumentation-fastapi==0.32b0
+opentelemetry-instrumentation-logging==0.32b0
+opentelemetry-instrumentation-requests==0.32b0
