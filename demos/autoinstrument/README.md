@@ -1,15 +1,15 @@
 ## OpenTelemetry FastAPI autoinstrumentation demo
 
-This demos how to auto-instrument a Fast API application.
+This demos how to auto-instrument a Fast API application (uvicorn).
 
 ```bash
-docker build -t fastapi-demo .
-docker run -it -p 8000 fastapi-demo
+docker build -t uvicorn-demo .
+docker run -it -p 8000:8000 uvicorn-demo
 ```
 
 Visit http://localhost:8000/items/5?q=somequery
 
-Look in the application logs for OpenTelemetry traces.
+Look in the application logs for OpenTelemetry traces (wait a few seconds).
 Example:
 
 ```json
